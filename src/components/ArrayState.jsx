@@ -113,7 +113,7 @@ export const ArrayState = () => {
       <br />
       <input
         type="text"
-        placeholder="item to be added at start"
+        placeholder="Start item"
         value={startItem}
         onChange={(e) => setStartItem(e.target.value)}
       />
@@ -123,7 +123,7 @@ export const ArrayState = () => {
       <br />
       <input
         type="text"
-        placeholder="item to be added at end"
+        placeholder="End Item"
         value={endItem}
         onChange={(e) => setEndItem(e.target.value)}
       />
