@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./ArrayState.css";
+
 export const ArrayState = () => {
   const [arr, setArr] = useState(["A", "B", "C"]);
   const [inputIndx, setInputIndx] = useState();
