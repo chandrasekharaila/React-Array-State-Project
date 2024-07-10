@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./ArrayState.css";
 export const ArrayState = () => {
   const [arr, setArr] = useState(["A", "B", "C"]);
   const [inputIndx, setInputIndx] = useState();
@@ -113,7 +114,7 @@ export const ArrayState = () => {
       <br />
       <input
         type="text"
-        placeholder="Start item"
+        placeholder="Item to add at start"
         value={startItem}
         onChange={(e) => setStartItem(e.target.value)}
       />
@@ -123,7 +124,7 @@ export const ArrayState = () => {
       <br />
       <input
         type="text"
-        placeholder="End Item"
+        placeholder="Item to add at end"
         value={endItem}
         onChange={(e) => setEndItem(e.target.value)}
       />
