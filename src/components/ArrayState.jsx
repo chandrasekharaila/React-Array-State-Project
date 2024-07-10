@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./ArrayState.css";
+
 export const ArrayState = () => {
   const [arr, setArr] = useState(["A", "B", "C"]);
   const [inputIndx, setInputIndx] = useState();
@@ -102,7 +102,7 @@ export const ArrayState = () => {
       <span> </span>
       <input
         type="text"
-        placeholder="Index at which item to be placed"
+        placeholder="Index at which item to be inserted"
         value={editIndex}
         onChange={(e) => setEditIndex(e.target.value)}
       />
